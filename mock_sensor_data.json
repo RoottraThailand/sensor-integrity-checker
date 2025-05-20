@@ -1,0 +1,1346 @@
+[
+  {
+    "timestamp": "2025-05-12T09:31:49.390785",
+    "co2_ppm": 1006.62,
+    "pm25_ugm3": 32.42,
+    "temperature_c": 34.6,
+    "humidity_percent": 76.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T10:31:49.390785",
+    "co2_ppm": 507.06,
+    "pm25_ugm3": 30.79,
+    "temperature_c": 25.6,
+    "humidity_percent": 76.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T11:31:49.390785",
+    "co2_ppm": 1155.77,
+    "pm25_ugm3": 107.83,
+    "temperature_c": 30.7,
+    "humidity_percent": 46.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T12:31:49.390785",
+    "co2_ppm": 887.8,
+    "pm25_ugm3": 103.48,
+    "temperature_c": 23.8,
+    "humidity_percent": 61.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T13:31:49.390785",
+    "co2_ppm": 914.34,
+    "pm25_ugm3": 95.74,
+    "temperature_c": 34.1,
+    "humidity_percent": 60.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T14:31:49.390785",
+    "co2_ppm": 1096.95,
+    "pm25_ugm3": 114.85,
+    "temperature_c": 24.7,
+    "humidity_percent": 68.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T15:31:49.390785",
+    "co2_ppm": 1038.88,
+    "pm25_ugm3": 60.35,
+    "temperature_c": 28.2,
+    "humidity_percent": 48.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T16:31:49.390785",
+    "co2_ppm": 1001.13,
+    "pm25_ugm3": 113.3,
+    "temperature_c": 24.3,
+    "humidity_percent": 60.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T17:31:49.390785",
+    "co2_ppm": 1021.88,
+    "pm25_ugm3": 60.2,
+    "temperature_c": 30.2,
+    "humidity_percent": 58.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T18:31:49.390785",
+    "co2_ppm": 857.14,
+    "pm25_ugm3": 52.21,
+    "temperature_c": 26.9,
+    "humidity_percent": 47.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T19:31:49.390785",
+    "co2_ppm": 817.28,
+    "pm25_ugm3": 107.5,
+    "temperature_c": 34.3,
+    "humidity_percent": 86.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T20:31:49.390785",
+    "co2_ppm": 440.35,
+    "pm25_ugm3": 62.62,
+    "temperature_c": 29.2,
+    "humidity_percent": 42.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T21:31:49.390785",
+    "co2_ppm": 540.84,
+    "pm25_ugm3": 47.44,
+    "temperature_c": 22.9,
+    "humidity_percent": 77.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T22:31:49.390785",
+    "co2_ppm": 1113.05,
+    "pm25_ugm3": 145.75,
+    "temperature_c": 34.5,
+    "humidity_percent": 75.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-12T23:31:49.390785",
+    "co2_ppm": 397.65,
+    "pm25_ugm3": 91.07,
+    "temperature_c": 29.3,
+    "humidity_percent": 60.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T00:31:49.390785",
+    "co2_ppm": 960.36,
+    "pm25_ugm3": 9.31,
+    "temperature_c": 32.2,
+    "humidity_percent": 61.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T01:31:49.390785",
+    "co2_ppm": 425.44,
+    "pm25_ugm3": 98.04,
+    "temperature_c": 31.3,
+    "humidity_percent": 68.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T02:31:49.390785",
+    "co2_ppm": 452.27,
+    "pm25_ugm3": 32.09,
+    "temperature_c": 25.0,
+    "humidity_percent": 56.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T03:31:49.390785",
+    "co2_ppm": 594.06,
+    "pm25_ugm3": 12.72,
+    "temperature_c": 33.4,
+    "humidity_percent": 86.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T04:31:49.390785",
+    "co2_ppm": 503.82,
+    "pm25_ugm3": 135.2,
+    "temperature_c": 23.3,
+    "humidity_percent": 40.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T05:31:49.390785",
+    "co2_ppm": 607.95,
+    "pm25_ugm3": 120.72,
+    "temperature_c": 34.5,
+    "humidity_percent": 45.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T06:31:49.390785",
+    "co2_ppm": 1036.92,
+    "pm25_ugm3": 144.84,
+    "temperature_c": 30.2,
+    "humidity_percent": 87.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T07:31:49.390785",
+    "co2_ppm": 718.95,
+    "pm25_ugm3": 112.02,
+    "temperature_c": 33.5,
+    "humidity_percent": 63.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T08:31:49.390785",
+    "co2_ppm": 708.6,
+    "pm25_ugm3": 35.8,
+    "temperature_c": 29.8,
+    "humidity_percent": 73.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T09:31:49.390785",
+    "co2_ppm": 1038.33,
+    "pm25_ugm3": 15.14,
+    "temperature_c": 26.8,
+    "humidity_percent": 68.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T10:31:49.390785",
+    "co2_ppm": 1079.76,
+    "pm25_ugm3": 9.06,
+    "temperature_c": 34.2,
+    "humidity_percent": 70.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T11:31:49.390785",
+    "co2_ppm": 649.87,
+    "pm25_ugm3": 32.79,
+    "temperature_c": 23.6,
+    "humidity_percent": 83.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T12:31:49.390785",
+    "co2_ppm": 683.97,
+    "pm25_ugm3": 143.02,
+    "temperature_c": 25.5,
+    "humidity_percent": 61.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T13:31:49.390785",
+    "co2_ppm": 644.97,
+    "pm25_ugm3": 108.66,
+    "temperature_c": 29.1,
+    "humidity_percent": 60.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T14:31:49.390785",
+    "co2_ppm": 1016.03,
+    "pm25_ugm3": 139.91,
+    "temperature_c": 27.3,
+    "humidity_percent": 83.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T15:31:49.390785",
+    "co2_ppm": 1074.99,
+    "pm25_ugm3": 13.89,
+    "temperature_c": 32.5,
+    "humidity_percent": 80.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T16:31:49.390785",
+    "co2_ppm": 939.4,
+    "pm25_ugm3": 135.8,
+    "temperature_c": 28.7,
+    "humidity_percent": 80.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T17:31:49.390785",
+    "co2_ppm": 450.79,
+    "pm25_ugm3": 32.75,
+    "temperature_c": 22.4,
+    "humidity_percent": 68.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T18:31:49.390785",
+    "co2_ppm": 427.58,
+    "pm25_ugm3": 96.2,
+    "temperature_c": 23.9,
+    "humidity_percent": 67.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T19:31:49.390785",
+    "co2_ppm": 1086.24,
+    "pm25_ugm3": 85.5,
+    "temperature_c": 35.0,
+    "humidity_percent": 89.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T20:31:49.390785",
+    "co2_ppm": 444.09,
+    "pm25_ugm3": 15.59,
+    "temperature_c": 34.4,
+    "humidity_percent": 65.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T21:31:49.390785",
+    "co2_ppm": 955.15,
+    "pm25_ugm3": 85.48,
+    "temperature_c": 29.4,
+    "humidity_percent": 72.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T22:31:49.390785",
+    "co2_ppm": 1015.47,
+    "pm25_ugm3": 110.43,
+    "temperature_c": 32.4,
+    "humidity_percent": 53.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-13T23:31:49.390785",
+    "co2_ppm": 869.79,
+    "pm25_ugm3": 78.4,
+    "temperature_c": 29.5,
+    "humidity_percent": 77.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T00:31:49.390785",
+    "co2_ppm": 1072.48,
+    "pm25_ugm3": 71.9,
+    "temperature_c": 31.4,
+    "humidity_percent": 46.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T01:31:49.390785",
+    "co2_ppm": 840.18,
+    "pm25_ugm3": 33.68,
+    "temperature_c": 25.1,
+    "humidity_percent": 58.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T02:31:49.390785",
+    "co2_ppm": 449.42,
+    "pm25_ugm3": 127.98,
+    "temperature_c": 35.0,
+    "humidity_percent": 46.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T03:31:49.390785",
+    "co2_ppm": 923.55,
+    "pm25_ugm3": 133.44,
+    "temperature_c": 25.5,
+    "humidity_percent": 89.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T04:31:49.390785",
+    "co2_ppm": 512.94,
+    "pm25_ugm3": 127.9,
+    "temperature_c": 29.2,
+    "humidity_percent": 42.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T05:31:49.390785",
+    "co2_ppm": 1168.36,
+    "pm25_ugm3": 104.58,
+    "temperature_c": 34.9,
+    "humidity_percent": 78.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T06:31:49.390785",
+    "co2_ppm": 683.86,
+    "pm25_ugm3": 81.83,
+    "temperature_c": 31.2,
+    "humidity_percent": 49.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T07:31:49.390785",
+    "co2_ppm": 1054.0,
+    "pm25_ugm3": 27.84,
+    "temperature_c": 31.0,
+    "humidity_percent": 56.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T08:31:49.390785",
+    "co2_ppm": 671.6,
+    "pm25_ugm3": 34.23,
+    "temperature_c": 27.3,
+    "humidity_percent": 47.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T09:31:49.390785",
+    "co2_ppm": 1004.97,
+    "pm25_ugm3": 67.68,
+    "temperature_c": 28.5,
+    "humidity_percent": 75.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T10:31:49.390785",
+    "co2_ppm": 986.36,
+    "pm25_ugm3": 118.7,
+    "temperature_c": 28.3,
+    "humidity_percent": 80.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T11:31:49.390785",
+    "co2_ppm": 418.61,
+    "pm25_ugm3": 71.09,
+    "temperature_c": 24.2,
+    "humidity_percent": 80.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T12:31:49.390785",
+    "co2_ppm": 1021.19,
+    "pm25_ugm3": 100.84,
+    "temperature_c": 26.7,
+    "humidity_percent": 50.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T13:31:49.390785",
+    "co2_ppm": 861.64,
+    "pm25_ugm3": 40.65,
+    "temperature_c": 34.5,
+    "humidity_percent": 60.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T14:31:49.390785",
+    "co2_ppm": 1053.54,
+    "pm25_ugm3": 78.25,
+    "temperature_c": 31.4,
+    "humidity_percent": 71.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T15:31:49.390785",
+    "co2_ppm": 1030.88,
+    "pm25_ugm3": 65.05,
+    "temperature_c": 30.7,
+    "humidity_percent": 75.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T16:31:49.390785",
+    "co2_ppm": 965.47,
+    "pm25_ugm3": 134.67,
+    "temperature_c": 27.6,
+    "humidity_percent": 70.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T17:31:49.390785",
+    "co2_ppm": 694.69,
+    "pm25_ugm3": 38.76,
+    "temperature_c": 30.6,
+    "humidity_percent": 67.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T18:31:49.390785",
+    "co2_ppm": 419.34,
+    "pm25_ugm3": 44.5,
+    "temperature_c": 28.3,
+    "humidity_percent": 55.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T19:31:49.390785",
+    "co2_ppm": 813.68,
+    "pm25_ugm3": 22.63,
+    "temperature_c": 30.4,
+    "humidity_percent": 56.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T20:31:49.390785",
+    "co2_ppm": 622.82,
+    "pm25_ugm3": 92.4,
+    "temperature_c": 24.8,
+    "humidity_percent": 88.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T21:31:49.390785",
+    "co2_ppm": 605.35,
+    "pm25_ugm3": 31.93,
+    "temperature_c": 34.7,
+    "humidity_percent": 70.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T22:31:49.390785",
+    "co2_ppm": 494.92,
+    "pm25_ugm3": 118.08,
+    "temperature_c": 34.3,
+    "humidity_percent": 40.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-14T23:31:49.390785",
+    "co2_ppm": 819.62,
+    "pm25_ugm3": 51.07,
+    "temperature_c": 32.6,
+    "humidity_percent": 62.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T00:31:49.390785",
+    "co2_ppm": 764.45,
+    "pm25_ugm3": 142.74,
+    "temperature_c": 32.7,
+    "humidity_percent": 89.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T01:31:49.390785",
+    "co2_ppm": 584.82,
+    "pm25_ugm3": 35.65,
+    "temperature_c": 28.4,
+    "humidity_percent": 85.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T02:31:49.390785",
+    "co2_ppm": 1043.45,
+    "pm25_ugm3": 44.08,
+    "temperature_c": 28.1,
+    "humidity_percent": 61.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T03:31:49.390785",
+    "co2_ppm": 615.39,
+    "pm25_ugm3": 65.76,
+    "temperature_c": 28.9,
+    "humidity_percent": 52.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T04:31:49.390785",
+    "co2_ppm": 557.43,
+    "pm25_ugm3": 56.39,
+    "temperature_c": 33.3,
+    "humidity_percent": 48.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T05:31:49.390785",
+    "co2_ppm": 478.53,
+    "pm25_ugm3": 37.28,
+    "temperature_c": 33.6,
+    "humidity_percent": 81.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T06:31:49.390785",
+    "co2_ppm": 1019.35,
+    "pm25_ugm3": 46.71,
+    "temperature_c": 22.1,
+    "humidity_percent": 84.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T07:31:49.390785",
+    "co2_ppm": 877.59,
+    "pm25_ugm3": 149.88,
+    "temperature_c": 24.8,
+    "humidity_percent": 50.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T08:31:49.390785",
+    "co2_ppm": 951.18,
+    "pm25_ugm3": 138.35,
+    "temperature_c": 25.0,
+    "humidity_percent": 47.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T09:31:49.390785",
+    "co2_ppm": 799.91,
+    "pm25_ugm3": 95.19,
+    "temperature_c": 28.8,
+    "humidity_percent": 86.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T10:31:49.390785",
+    "co2_ppm": 978.15,
+    "pm25_ugm3": 13.64,
+    "temperature_c": 26.0,
+    "humidity_percent": 71.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T11:31:49.390785",
+    "co2_ppm": 447.48,
+    "pm25_ugm3": 141.48,
+    "temperature_c": 26.4,
+    "humidity_percent": 75.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T12:31:49.390785",
+    "co2_ppm": 426.65,
+    "pm25_ugm3": 29.51,
+    "temperature_c": 27.6,
+    "humidity_percent": 57.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T13:31:49.390785",
+    "co2_ppm": 682.38,
+    "pm25_ugm3": 128.99,
+    "temperature_c": 33.3,
+    "humidity_percent": 57.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T14:31:49.390785",
+    "co2_ppm": 936.34,
+    "pm25_ugm3": 94.15,
+    "temperature_c": 24.8,
+    "humidity_percent": 44.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T15:31:49.390785",
+    "co2_ppm": 1177.2,
+    "pm25_ugm3": 136.26,
+    "temperature_c": 28.9,
+    "humidity_percent": 46.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T16:31:49.390785",
+    "co2_ppm": 644.96,
+    "pm25_ugm3": 52.71,
+    "temperature_c": 31.4,
+    "humidity_percent": 89.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T17:31:49.390785",
+    "co2_ppm": 1067.06,
+    "pm25_ugm3": 72.61,
+    "temperature_c": 25.1,
+    "humidity_percent": 50.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T18:31:49.390785",
+    "co2_ppm": 698.45,
+    "pm25_ugm3": 7.04,
+    "temperature_c": 25.4,
+    "humidity_percent": 59.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T19:31:49.390785",
+    "co2_ppm": 439.67,
+    "pm25_ugm3": 136.34,
+    "temperature_c": 34.4,
+    "humidity_percent": 41.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T20:31:49.390785",
+    "co2_ppm": 678.58,
+    "pm25_ugm3": 46.06,
+    "temperature_c": 23.2,
+    "humidity_percent": 66.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T21:31:49.390785",
+    "co2_ppm": 568.44,
+    "pm25_ugm3": 77.28,
+    "temperature_c": 31.8,
+    "humidity_percent": 58.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T22:31:49.390785",
+    "co2_ppm": 1019.98,
+    "pm25_ugm3": 45.47,
+    "temperature_c": 27.8,
+    "humidity_percent": 55.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-15T23:31:49.390785",
+    "co2_ppm": 446.2,
+    "pm25_ugm3": 149.54,
+    "temperature_c": 27.1,
+    "humidity_percent": 83.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T00:31:49.390785",
+    "co2_ppm": 414.35,
+    "pm25_ugm3": 57.68,
+    "temperature_c": 22.8,
+    "humidity_percent": 74.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T01:31:49.390785",
+    "co2_ppm": 1192.89,
+    "pm25_ugm3": 22.07,
+    "temperature_c": 33.5,
+    "humidity_percent": 46.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T02:31:49.390785",
+    "co2_ppm": 542.04,
+    "pm25_ugm3": 6.41,
+    "temperature_c": 24.9,
+    "humidity_percent": 58.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T03:31:49.390785",
+    "co2_ppm": 809.15,
+    "pm25_ugm3": 61.01,
+    "temperature_c": 34.5,
+    "humidity_percent": 79.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T04:31:49.390785",
+    "co2_ppm": 493.35,
+    "pm25_ugm3": 12.97,
+    "temperature_c": 28.3,
+    "humidity_percent": 83.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T05:31:49.390785",
+    "co2_ppm": 582.09,
+    "pm25_ugm3": 44.71,
+    "temperature_c": 31.8,
+    "humidity_percent": 76.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T06:31:49.390785",
+    "co2_ppm": 981.63,
+    "pm25_ugm3": 61.86,
+    "temperature_c": 28.7,
+    "humidity_percent": 68.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T07:31:49.390785",
+    "co2_ppm": 660.26,
+    "pm25_ugm3": 83.26,
+    "temperature_c": 31.4,
+    "humidity_percent": 61.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T08:31:49.390785",
+    "co2_ppm": 705.4,
+    "pm25_ugm3": 55.35,
+    "temperature_c": 23.6,
+    "humidity_percent": 81.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T09:31:49.390785",
+    "co2_ppm": 511.26,
+    "pm25_ugm3": 83.47,
+    "temperature_c": 23.7,
+    "humidity_percent": 83.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T10:31:49.390785",
+    "co2_ppm": 948.9,
+    "pm25_ugm3": 91.21,
+    "temperature_c": 27.0,
+    "humidity_percent": 55.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T11:31:49.390785",
+    "co2_ppm": 1008.02,
+    "pm25_ugm3": 58.58,
+    "temperature_c": 28.0,
+    "humidity_percent": 41.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T12:31:49.390785",
+    "co2_ppm": 1023.14,
+    "pm25_ugm3": 121.08,
+    "temperature_c": 22.9,
+    "humidity_percent": 87.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T13:31:49.390785",
+    "co2_ppm": 579.66,
+    "pm25_ugm3": 52.64,
+    "temperature_c": 29.6,
+    "humidity_percent": 70.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T14:31:49.390785",
+    "co2_ppm": 508.81,
+    "pm25_ugm3": 56.0,
+    "temperature_c": 25.0,
+    "humidity_percent": 48.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T15:31:49.390785",
+    "co2_ppm": 973.66,
+    "pm25_ugm3": 74.18,
+    "temperature_c": 24.8,
+    "humidity_percent": 45.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T16:31:49.390785",
+    "co2_ppm": 793.14,
+    "pm25_ugm3": 64.99,
+    "temperature_c": 34.8,
+    "humidity_percent": 46.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T17:31:49.390785",
+    "co2_ppm": 1106.49,
+    "pm25_ugm3": 129.26,
+    "temperature_c": 28.4,
+    "humidity_percent": 84.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T18:31:49.390785",
+    "co2_ppm": 1037.1,
+    "pm25_ugm3": 53.62,
+    "temperature_c": 34.4,
+    "humidity_percent": 73.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T19:31:49.390785",
+    "co2_ppm": 838.16,
+    "pm25_ugm3": 35.27,
+    "temperature_c": 28.6,
+    "humidity_percent": 60.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T20:31:49.390785",
+    "co2_ppm": 1042.06,
+    "pm25_ugm3": 63.74,
+    "temperature_c": 30.6,
+    "humidity_percent": 52.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T21:31:49.390785",
+    "co2_ppm": 973.6,
+    "pm25_ugm3": 25.37,
+    "temperature_c": 26.5,
+    "humidity_percent": 68.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T22:31:49.390785",
+    "co2_ppm": 651.79,
+    "pm25_ugm3": 46.78,
+    "temperature_c": 34.0,
+    "humidity_percent": 61.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-16T23:31:49.390785",
+    "co2_ppm": 870.66,
+    "pm25_ugm3": 63.59,
+    "temperature_c": 28.7,
+    "humidity_percent": 79.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T00:31:49.390785",
+    "co2_ppm": 1043.04,
+    "pm25_ugm3": 64.53,
+    "temperature_c": 34.5,
+    "humidity_percent": 40.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T01:31:49.390785",
+    "co2_ppm": 1035.07,
+    "pm25_ugm3": 119.54,
+    "temperature_c": 27.4,
+    "humidity_percent": 40.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T02:31:49.390785",
+    "co2_ppm": 1135.61,
+    "pm25_ugm3": 95.3,
+    "temperature_c": 29.7,
+    "humidity_percent": 76.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T03:31:49.390785",
+    "co2_ppm": 525.5,
+    "pm25_ugm3": 28.26,
+    "temperature_c": 27.2,
+    "humidity_percent": 79.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T04:31:49.390785",
+    "co2_ppm": 988.69,
+    "pm25_ugm3": 101.03,
+    "temperature_c": 32.5,
+    "humidity_percent": 89.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T05:31:49.390785",
+    "co2_ppm": 547.95,
+    "pm25_ugm3": 116.67,
+    "temperature_c": 24.2,
+    "humidity_percent": 65.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T06:31:49.390785",
+    "co2_ppm": 703.46,
+    "pm25_ugm3": 94.05,
+    "temperature_c": 34.8,
+    "humidity_percent": 68.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T07:31:49.390785",
+    "co2_ppm": 1103.31,
+    "pm25_ugm3": 6.51,
+    "temperature_c": 31.4,
+    "humidity_percent": 83.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T08:31:49.390785",
+    "co2_ppm": 398.97,
+    "pm25_ugm3": 76.95,
+    "temperature_c": 29.2,
+    "humidity_percent": 66.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T09:31:49.390785",
+    "co2_ppm": 864.55,
+    "pm25_ugm3": 34.9,
+    "temperature_c": 31.8,
+    "humidity_percent": 55.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T10:31:49.390785",
+    "co2_ppm": 1163.67,
+    "pm25_ugm3": 116.24,
+    "temperature_c": 27.4,
+    "humidity_percent": 88.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T11:31:49.390785",
+    "co2_ppm": 817.08,
+    "pm25_ugm3": 113.43,
+    "temperature_c": 34.4,
+    "humidity_percent": 57.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T12:31:49.390785",
+    "co2_ppm": 1087.56,
+    "pm25_ugm3": 47.45,
+    "temperature_c": 26.8,
+    "humidity_percent": 52.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T13:31:49.390785",
+    "co2_ppm": 635.12,
+    "pm25_ugm3": 25.0,
+    "temperature_c": 22.8,
+    "humidity_percent": 63.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T14:31:49.390785",
+    "co2_ppm": 1199.08,
+    "pm25_ugm3": 121.97,
+    "temperature_c": 27.8,
+    "humidity_percent": 73.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T15:31:49.390785",
+    "co2_ppm": 1173.32,
+    "pm25_ugm3": 124.01,
+    "temperature_c": 32.3,
+    "humidity_percent": 57.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T16:31:49.390785",
+    "co2_ppm": 695.46,
+    "pm25_ugm3": 52.92,
+    "temperature_c": 30.1,
+    "humidity_percent": 63.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T17:31:49.390785",
+    "co2_ppm": 504.57,
+    "pm25_ugm3": 148.05,
+    "temperature_c": 31.5,
+    "humidity_percent": 87.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T18:31:49.390785",
+    "co2_ppm": 424.43,
+    "pm25_ugm3": 64.4,
+    "temperature_c": 32.3,
+    "humidity_percent": 62.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T19:31:49.390785",
+    "co2_ppm": 1192.68,
+    "pm25_ugm3": 38.86,
+    "temperature_c": 24.8,
+    "humidity_percent": 76.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T20:31:49.390785",
+    "co2_ppm": 1135.58,
+    "pm25_ugm3": 125.46,
+    "temperature_c": 30.1,
+    "humidity_percent": 68.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T21:31:49.390785",
+    "co2_ppm": 410.72,
+    "pm25_ugm3": 34.95,
+    "temperature_c": 28.0,
+    "humidity_percent": 65.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T22:31:49.390785",
+    "co2_ppm": 668.84,
+    "pm25_ugm3": 20.71,
+    "temperature_c": 22.5,
+    "humidity_percent": 53.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-17T23:31:49.390785",
+    "co2_ppm": 417.21,
+    "pm25_ugm3": 39.86,
+    "temperature_c": 23.2,
+    "humidity_percent": 44.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T00:31:49.390785",
+    "co2_ppm": 1193.93,
+    "pm25_ugm3": 105.25,
+    "temperature_c": 27.2,
+    "humidity_percent": 69.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T01:31:49.390785",
+    "co2_ppm": 998.86,
+    "pm25_ugm3": 133.4,
+    "temperature_c": 29.1,
+    "humidity_percent": 72.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T02:31:49.390785",
+    "co2_ppm": 1066.08,
+    "pm25_ugm3": 65.47,
+    "temperature_c": 27.0,
+    "humidity_percent": 75.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T03:31:49.390785",
+    "co2_ppm": 546.43,
+    "pm25_ugm3": 87.56,
+    "temperature_c": 33.1,
+    "humidity_percent": 87.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T04:31:49.390785",
+    "co2_ppm": 644.9,
+    "pm25_ugm3": 58.32,
+    "temperature_c": 34.6,
+    "humidity_percent": 66.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T05:31:49.390785",
+    "co2_ppm": 1135.98,
+    "pm25_ugm3": 15.36,
+    "temperature_c": 22.9,
+    "humidity_percent": 72.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T06:31:49.390785",
+    "co2_ppm": 1111.03,
+    "pm25_ugm3": 118.92,
+    "temperature_c": 34.3,
+    "humidity_percent": 45.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T07:31:49.390785",
+    "co2_ppm": 1145.25,
+    "pm25_ugm3": 134.09,
+    "temperature_c": 32.3,
+    "humidity_percent": 47.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T08:31:49.390785",
+    "co2_ppm": 440.27,
+    "pm25_ugm3": 67.46,
+    "temperature_c": 34.8,
+    "humidity_percent": 88.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T09:31:49.390785",
+    "co2_ppm": 755.66,
+    "pm25_ugm3": 132.36,
+    "temperature_c": 26.6,
+    "humidity_percent": 48.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T10:31:49.390785",
+    "co2_ppm": 1134.06,
+    "pm25_ugm3": 17.59,
+    "temperature_c": 34.8,
+    "humidity_percent": 40.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T11:31:49.390785",
+    "co2_ppm": 882.12,
+    "pm25_ugm3": 104.17,
+    "temperature_c": 34.1,
+    "humidity_percent": 72.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T12:31:49.390785",
+    "co2_ppm": 428.89,
+    "pm25_ugm3": 41.31,
+    "temperature_c": 33.6,
+    "humidity_percent": 79.8,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T13:31:49.390785",
+    "co2_ppm": 749.25,
+    "pm25_ugm3": 75.59,
+    "temperature_c": 24.5,
+    "humidity_percent": 56.3,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T14:31:49.390785",
+    "co2_ppm": 1009.39,
+    "pm25_ugm3": 81.52,
+    "temperature_c": 26.1,
+    "humidity_percent": 64.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T15:31:49.390785",
+    "co2_ppm": 436.4,
+    "pm25_ugm3": 22.91,
+    "temperature_c": 29.0,
+    "humidity_percent": 66.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T16:31:49.390785",
+    "co2_ppm": 418.29,
+    "pm25_ugm3": 124.76,
+    "temperature_c": 23.7,
+    "humidity_percent": 44.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T17:31:49.390785",
+    "co2_ppm": 842.12,
+    "pm25_ugm3": 25.44,
+    "temperature_c": 29.3,
+    "humidity_percent": 51.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T18:31:49.390785",
+    "co2_ppm": 509.49,
+    "pm25_ugm3": 91.35,
+    "temperature_c": 26.3,
+    "humidity_percent": 83.1,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T19:31:49.390785",
+    "co2_ppm": 575.36,
+    "pm25_ugm3": 43.81,
+    "temperature_c": 23.3,
+    "humidity_percent": 80.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T20:31:49.390785",
+    "co2_ppm": 514.6,
+    "pm25_ugm3": 51.02,
+    "temperature_c": 25.1,
+    "humidity_percent": 83.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T21:31:49.390785",
+    "co2_ppm": 1150.63,
+    "pm25_ugm3": 138.28,
+    "temperature_c": 27.4,
+    "humidity_percent": 84.5,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T22:31:49.390785",
+    "co2_ppm": 1082.59,
+    "pm25_ugm3": 132.67,
+    "temperature_c": 22.0,
+    "humidity_percent": 54.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-18T23:31:49.390785",
+    "co2_ppm": 1090.92,
+    "pm25_ugm3": 100.4,
+    "temperature_c": 31.8,
+    "humidity_percent": 67.2,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T00:31:49.390785",
+    "co2_ppm": 1083.4,
+    "pm25_ugm3": 5.63,
+    "temperature_c": 23.9,
+    "humidity_percent": 87.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T01:31:49.390785",
+    "co2_ppm": 865.33,
+    "pm25_ugm3": 94.93,
+    "temperature_c": 33.9,
+    "humidity_percent": 46.9,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T02:31:49.390785",
+    "co2_ppm": 1197.73,
+    "pm25_ugm3": 108.34,
+    "temperature_c": 23.9,
+    "humidity_percent": 77.4,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T03:31:49.390785",
+    "co2_ppm": 847.39,
+    "pm25_ugm3": 15.32,
+    "temperature_c": 33.0,
+    "humidity_percent": 65.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T04:31:49.390785",
+    "co2_ppm": 580.47,
+    "pm25_ugm3": 84.65,
+    "temperature_c": 27.7,
+    "humidity_percent": 49.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T05:31:49.390785",
+    "co2_ppm": 589.57,
+    "pm25_ugm3": 10.06,
+    "temperature_c": 31.4,
+    "humidity_percent": 53.0,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T06:31:49.390785",
+    "co2_ppm": 722.76,
+    "pm25_ugm3": 86.6,
+    "temperature_c": 34.7,
+    "humidity_percent": 75.7,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T07:31:49.390785",
+    "co2_ppm": 692.9,
+    "pm25_ugm3": 35.27,
+    "temperature_c": 30.6,
+    "humidity_percent": 53.6,
+    "location": "TestFarm1"
+  },
+  {
+    "timestamp": "2025-05-19T08:31:49.390785",
+    "co2_ppm": 1007.59,
+    "pm25_ugm3": 111.88,
+    "temperature_c": 22.4,
+    "humidity_percent": 78.1,
+    "location": "TestFarm1"
+  }
+]

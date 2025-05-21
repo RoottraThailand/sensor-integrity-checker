@@ -55,25 +55,20 @@ def verify_against_hedera(filepath: str, topic_id: str) -> str:
 
 # ── CHAT WITH OPENAI ────────────────────────────────────────────────────────────
 
-def ask_ollama(messages: list[dict], model: str = MODEL) -> str:
-    # initialize client with your secret
-    client = openai.OpenAI(
-        api_key=os.getenv("OPENAI_API_KEY")
-    )
-    # 1️⃣ load the key from env
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+from openai import OpenAI
+import os
 
-    response = client.chat.completions.create(
-    # 2️⃣ sanity-check
-    if not openai.api_key:
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+def ask_ollama(messages: list[dict], model: str = MODEL) -> str:
+    if not client.api_key:
         raise ValueError("OpenAI API key not set in environment")
 
-    # 3️⃣ call the ChatCompletion endpoint
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model=model,
         messages=messages,
         max_tokens=500
-        max_tokens=500,
     )
 
     return response.choices[0].message.content
+

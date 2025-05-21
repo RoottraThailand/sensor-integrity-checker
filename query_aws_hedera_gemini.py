@@ -6,7 +6,7 @@ import openai
 import os
 
 TOPIC_ID = "0.0.6025735"
-MODEL = "gpt-3.5-turbo"
+MODEL = "gpt-4-turbo"
 DATA_FILE = "mock_sensor_data.json"
 
 def verify_against_hedera(filepath, topic_id):

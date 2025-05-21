@@ -1,33 +1,18 @@
-# streamlit_app.py
-"""
-A quick Streamlit front-end that wraps your existing verification + LLM logic
-for a minimum-viable product (MVP). It lets a user:
-  • upload a sensor-data JSON file
-  • see a prettified preview
-  • verify the file hash on Hedera
-  • chat with the local Ollama model about that data
-
-HOW TO RUN
-----------
-1. pip install streamlit
-2. streamlit run streamlit_app.py
-
-Make sure the original `query_aws_hedera_gemini.py` is in the same folder so
-we can import its helper functions.
-"""
+# streamlit_app.py (OpenAI version)
 
 import json
 import tempfile
-
+import os
 import streamlit as st
+import openai
 
-# Re-use your existing helpers 👇
 from query_aws_hedera_gemini import (
     verify_against_hedera,  # Hedera mirror-node lookup
-    ask_ollama,             # chat with local Ollama instance
-    MODEL,                  # default model name
     TOPIC_ID                # Hedera topic containing the hashes
 )
+
+# === API Key Setup ===
+openai.api_key = st.secrets.get("openai_key") or os.getenv("OPENAI_API_KEY")
 
 st.set_page_config(
     page_title="Sensor Integrity Checker",
@@ -39,6 +24,18 @@ st.title("🔗 Sensor Data Integrity Checker")
 st.markdown(
     "Upload a sensor JSON file, verify its on-chain hash, and chat about the data — all in one place 🚀"
 )
+
+# === Chat Function Using OpenAI ===
+def call_openai_llm(messages, model="gpt-3.5-turbo"):
+    try:
+        response = openai.ChatCompletion.create(
+            model=model,
+            messages=messages,
+            temperature=0.2
+        )
+        return response.choices[0].message["content"]
+    except Exception as e:
+        return f"❌ Error calling OpenAI: {e}"
 
 # --- FILE UPLOAD -----------------------------------------------------------
 uploaded = st.file_uploader("Upload sensor JSON", type="json")
@@ -61,7 +58,7 @@ if uploaded is not None:
     else:
         st.error(status)
 
-    # 3️⃣ LLM Q&A
+    # 3️⃣ LLM Q&A with OpenAI
     st.subheader("🤖 Ask anything about this file")
 
     if "messages" not in st.session_state:
@@ -69,8 +66,8 @@ if uploaded is not None:
             {
                 "role": "system",
                 "content": (
-                    "You are a data-verification assistant. Use blockchain hash status and"
-                    " sensor data to answer clearly."
+                    "You are a data-verification assistant. Use blockchain hash status and "
+                    "sensor data to answer clearly and helpfully."
                 ),
             },
             {
@@ -87,8 +84,8 @@ if uploaded is not None:
     ask = st.button("Ask")
     if ask and prompt:
         st.session_state.messages.append({"role": "user", "content": prompt})
-        with st.spinner("Thinking…"):
-            reply = ask_ollama(st.session_state.messages, model=MODEL)
+        with st.spinner("Querying OpenAI..."):
+            reply = call_openai_llm(st.session_state.messages)
         st.session_state.messages.append({"role": "assistant", "content": reply})
 
     # Display convo
@@ -98,5 +95,4 @@ if uploaded is not None:
 
 # --- SIDEBAR ---------------------------------------------------------------
 st.sidebar.header("⚙️ Settings")
-st.sidebar.text_input("Ollama model", value=MODEL, key="model_name")
-st.sidebar.info("Running locally? Make sure your Ollama daemon is up (default port 11434).")
+st.sidebar.info("This version uses OpenAI's cloud model (gpt-3.5-turbo). Make sure your key is set.")

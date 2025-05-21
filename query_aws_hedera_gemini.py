@@ -33,7 +33,7 @@ def ask_ollama(messages, model=MODEL):
     print("📤 Sending prompt to OpenAI...")
     print("📜 Prompt being sent to LLM:\n", json.dumps(messages, indent=2))
 
-    client = openai.OpenAI()
+    client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     response = client.chat.completions.create(
         model=model,
         messages=messages,

@@ -6,7 +6,7 @@ import os
 import streamlit as st
 import openai
 
-from query_aws_hedera_gemini import (
+from query_aws_hedera_gemini_online import (
     verify_against_hedera,  # Hedera mirror-node lookup
     TOPIC_ID                # Hedera topic containing the hashes
 )

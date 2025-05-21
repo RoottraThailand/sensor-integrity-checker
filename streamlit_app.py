@@ -9,16 +9,7 @@ from query_aws_hedera_gemini_online import (
     TOPIC_ID                # Hedera topic containing the hashes
 )
 
-<<<<<<< HEAD
-client = openai.OpenAI(api_key=st.secrets.get("openai_key") or os.getenv("OPENAI_API_KEY"))
 
-
-# === API Key Setup ===
-openai.api_key = st.secrets.get("openai_key") or os.getenv("OPENAI_API_KEY")
-client = openai.OpenAI(api_key=openai.api_key)  # OpenAI v1.x client
-
-=======
->>>>>>> 1cebb0e (Fix OpenAI API client initialization bug)
 st.set_page_config(
     page_title="Sensor Integrity Checker",
     page_icon="🔗",

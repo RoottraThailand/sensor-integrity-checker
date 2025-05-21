@@ -33,13 +33,11 @@ def ask_ollama(messages, model=MODEL):
     print("📤 Sending prompt to OpenAI...")
     print("📜 Prompt being sent to LLM:\n", json.dumps(messages, indent=2))
 
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-
-    response = openai.ChatCompletion.create(
+    client = openai.OpenAI()
+    response = client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=0.3,
         max_tokens=500
     )
 
-    return response.choices[0].message["content"]
+    return response.choices[0].message.content

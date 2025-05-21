@@ -1,3 +1,5 @@
+# streamlit_app.py (OpenAI version)
+
 import json
 import tempfile
 import os
@@ -11,7 +13,6 @@ from query_aws_hedera_gemini_online import (
 
 # === API Key Setup ===
 openai.api_key = st.secrets.get("openai_key") or os.getenv("OPENAI_API_KEY")
-client = openai.OpenAI(api_key=openai.api_key)  # OpenAI v1.x client
 
 st.set_page_config(
     page_title="Sensor Integrity Checker",
@@ -24,15 +25,16 @@ st.markdown(
     "Upload a sensor JSON file, verify its on-chain hash, and chat about the data — all in one place 🚀"
 )
 
-# === Chat Function Using OpenAI (v1.x syntax) ===
+# === Chat Function Using OpenAI ===
 def call_openai_llm(messages, model="gpt-3.5-turbo"):
     try:
+        response = openai.ChatCompletion.create(
         response = client.chat.completions.create(
             model=model,
             messages=messages,
             temperature=0.2
         )
-        return response.choices[0].message.content
+        return response.choices[0].message["content"]
     except Exception as e:
         return f"❌ Error calling OpenAI: {e}"
 
@@ -94,4 +96,3 @@ if uploaded is not None:
 
 # --- SIDEBAR ---------------------------------------------------------------
 st.sidebar.header("⚙️ Settings")
-st.sidebar.info("This version uses OpenAI's cloud model (gpt-3.5-turbo). Make sure your key is set.")

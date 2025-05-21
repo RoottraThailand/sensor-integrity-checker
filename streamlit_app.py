@@ -20,6 +20,8 @@ import json
 import tempfile
 
 import streamlit as st
+import os
+st.write("DEBUG: OpenAI key is", os.getenv("OPENAI_API_KEY"))
 
 # Re-use your existing helpers 👇
 from query_aws_hedera_gemini import (

@@ -1,27 +1,37 @@
+# query_aws_hedera_gemini.py
+
+import os
 import requests
 import json
 import hashlib
 import base64
 import openai
-import os
 
-TOPIC_ID = "0.0.6025735"
-MODEL = "gpt-4-turbo"
-DATA_FILE = "mock_sensor_data.json"
+# ── CONFIG ────────────────────────────────────────────────────────────────────
 
-def verify_against_hedera(filepath, topic_id):
+# Hedera topic on testnet containing your sensor‐data hashes
+TOPIC_ID   = "0.0.6025735"
+
+# A currently supported OpenAI chat model
+MODEL      = "gpt-3.5-turbo"
+
+# ── FILE HASH VERIFICATION ─────────────────────────────────────────────────────
+
+def verify_against_hedera(filepath: str, topic_id: str) -> str:
+    # compute local SHA-256
     with open(filepath, "rb") as f:
         local_hash = hashlib.sha256(f.read()).hexdigest()
 
+    # fetch all messages from Hedera mirror node
     url = f"https://testnet.mirrornode.hedera.com/api/v1/topics/{topic_id}/messages"
     response = requests.get(url).json()
 
     on_chain_hashes = []
-    for m in response['messages']:
+    for msg in response.get("messages", []):
         try:
-            decoded = base64.b64decode(m['message']).decode('utf-8').strip()
+            decoded = base64.b64decode(msg["message"]).decode("utf-8").strip()
             on_chain_hashes.append(decoded)
-        except:
+        except Exception:
             continue
 
     if local_hash in on_chain_hashes:
@@ -29,11 +39,14 @@ def verify_against_hedera(filepath, topic_id):
     else:
         return f"❌ File is NOT verified — hash {local_hash} not found on Hedera."
 
-def ask_ollama(messages, model=MODEL):
-    print("📤 Sending prompt to OpenAI...")
-    print("📜 Prompt being sent to LLM:\n", json.dumps(messages, indent=2))
+# ── CHAT WITH OPENAI ────────────────────────────────────────────────────────────
 
-    client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+def ask_ollama(messages: list[dict], model: str = MODEL) -> str:
+    # initialize client with your secret
+    client = openai.OpenAI(
+        api_key=os.getenv("OPENAI_API_KEY")
+    )
+
     response = client.chat.completions.create(
         model=model,
         messages=messages,

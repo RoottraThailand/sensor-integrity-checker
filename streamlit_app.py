@@ -1,5 +1,3 @@
-# streamlit_app.py (OpenAI version)
-
 import json
 import tempfile
 import os
@@ -16,6 +14,7 @@ client = openai.OpenAI(api_key=st.secrets.get("openai_key") or os.getenv("OPENAI
 
 # === API Key Setup ===
 openai.api_key = st.secrets.get("openai_key") or os.getenv("OPENAI_API_KEY")
+client = openai.OpenAI(api_key=openai.api_key)  # OpenAI v1.x client
 
 st.set_page_config(
     page_title="Sensor Integrity Checker",
@@ -28,7 +27,7 @@ st.markdown(
     "Upload a sensor JSON file, verify its on-chain hash, and chat about the data — all in one place 🚀"
 )
 
-# === Chat Function Using OpenAI ===
+# === Chat Function Using OpenAI (v1.x syntax) ===
 def call_openai_llm(messages, model="gpt-3.5-turbo"):
     try:
         response = client.chat.completions.create(
@@ -36,7 +35,7 @@ def call_openai_llm(messages, model="gpt-3.5-turbo"):
             messages=messages,
             temperature=0.2
         )
-        return response.choices[0].message["content"]
+        return response.choices[0].message.content
     except Exception as e:
         return f"❌ Error calling OpenAI: {e}"
 

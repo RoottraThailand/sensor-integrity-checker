@@ -11,6 +11,9 @@ from query_aws_hedera_gemini_online import (
     TOPIC_ID                # Hedera topic containing the hashes
 )
 
+openai.api_key = st.secrets.get("openai_key") or os.getenv("OPENAI_API_KEY")
+client = openai.OpenAI(api_key=openai.api_key)
+
 # === API Key Setup ===
 openai.api_key = st.secrets.get("openai_key") or os.getenv("OPENAI_API_KEY")
 

@@ -28,7 +28,6 @@ st.markdown(
 # === Chat Function Using OpenAI ===
 def call_openai_llm(messages, model="gpt-3.5-turbo"):
     try:
-        response = openai.ChatCompletion.create(
         response = client.chat.completions.create(
             model=model,
             messages=messages,

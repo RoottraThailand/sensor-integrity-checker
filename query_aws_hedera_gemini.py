@@ -2,14 +2,11 @@
 # query_aws_hedera_gemini.py
 
 import os
-import requests
 import json
 import hashlib
 import base64
-import hashlib
-import json
 import requests
-import openai
+from openai import OpenAI
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
